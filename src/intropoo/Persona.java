@@ -6,6 +6,13 @@ public class Persona {
     private int edad;
     private String nombre;
 
+    /**
+     * Método constructor de la clase persona
+     * @param genero
+     * @param religion
+     * @param edad
+     * @param nombre
+     */
     public Persona (String genero, String religion, int edad, String nombre){
         this.genero = genero;
         this.religion = religion;
@@ -13,6 +20,14 @@ public class Persona {
         this.nombre = nombre;
 
     }
+    public Persona (String genero, String religion, int edad){
+        this.genero = genero;
+        this.religion = religion;
+        this.edad = edad;
+
+
+    }
+
     public String getGenero() {
         return genero;
     }
