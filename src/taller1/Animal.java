@@ -15,6 +15,7 @@ public class Animal {
      * @return comida
      */
     public String animalComiendo(){
+
         return this.comida;
     }
 
@@ -23,6 +24,7 @@ public class Animal {
      * @return genero
      */
     public int animalDuerme(){
+
         return this.horas;
     }
 
@@ -31,6 +33,7 @@ public class Animal {
      * @return nombre
      */
     public String animalNombre(){
+
         return this.raza;
     }
     /**
@@ -38,6 +41,7 @@ public class Animal {
      * @return materia
      */
     public int animalpeso(){
+
         return this.peso;
     }
 
@@ -46,6 +50,7 @@ public class Animal {
      * @return libro
      */
     public String animalCelo(){
+
         return this.celo;
     }
 
@@ -73,6 +78,7 @@ public class Animal {
      * @param comida
      */
     public void actualizarcomida(String comida){
+
         this.comida = comida;
     }
     /**
@@ -80,6 +86,7 @@ public class Animal {
      * @param raza
      */
     public void actualizaRaza(String raza){
+
         this.raza = raza;
     }
     /**
@@ -95,6 +102,7 @@ public class Animal {
      * @param celo
      */
     public void actualizacelo(String celo){
+
         this.celo = celo;
     }
     /**
@@ -102,6 +110,7 @@ public class Animal {
      * @param horas
      */
     public void actualizaSueno(int horas){
+
         this.horas = horas;
     }
     /**
@@ -109,6 +118,7 @@ public class Animal {
      * @param metros
      */
     public void actualizaMetros(int metros){
+
         this.metros = metros;
     }
 }
