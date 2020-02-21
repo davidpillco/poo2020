@@ -43,7 +43,7 @@ public class Binario {
             suma = suma + decimal;
         }
         // Se resta el expoente
-        j=j-1;
+
         return suma;
     }
 
