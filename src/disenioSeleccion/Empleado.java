@@ -14,9 +14,9 @@ public class Empleado {
      * @param htrabajadas
      */
     public Empleado(String nombre, double vhoras,double htrabajadas){
-        this.setNombre(nombre);
-        this.setVhoras(vhoras);
-        this.setHtrabajadas(htrabajadas);
+        this.nombre = nombre;
+        this.vhoras = vhoras;
+        this.htrabajadas = htrabajadas;
     }
     public String getNombre() {
         return nombre;

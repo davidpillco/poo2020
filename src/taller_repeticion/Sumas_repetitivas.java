@@ -13,8 +13,8 @@ public class Sumas_repetitivas {
      * @param num2
      */
     public Sumas_repetitivas(double num1, double num2){
-        this.setNum1(num1);
-        this.setNum2(num2);
+        this.num1 = num1;
+        this.num2 = num2;
     }
 
     public double getNum1() {

@@ -7,9 +7,9 @@ public class Matrices {
     private int[][] matrizC = new int[3][3];
 
     public Matrices(int[][] matrizA, int[][] matrizB) {
-        this.setMatrizA(matrizA);
-        this.setMatrizB(matrizB);
-        this.setMatrizC(getMatrizC());
+        this.matrizA = matrizA;
+        this.matrizB = matrizB;
+
     }
     public int[][] SumaMatriz(){
         for (int i = 0; i < getMatrizA().length; i++) {

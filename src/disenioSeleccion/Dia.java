@@ -10,7 +10,7 @@ public class Dia {
      * @param num_dia
      */
     public Dia(int num_dia){
-        this.setNum_dia(num_dia);
+        this.num_dia = num_dia;
     }
     public int getNum_dia() {
         return num_dia;

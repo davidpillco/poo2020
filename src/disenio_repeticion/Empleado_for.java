@@ -9,9 +9,9 @@ public class Empleado_for {
     private String cadena = "";
 
     public Empleado_for(double horasTrabajadas, double valorHora, String nombre){
-        this.setHorasTrabajadas(horasTrabajadas);
-        this.setValorHora(valorHora);
-        this.setNombre(nombre);
+        this.horasTrabajadas = horasTrabajadas;
+        this.valorHora = valorHora;
+        this.nombre = nombre;
     }
     public double calcularSueldo(){
         if(getHorasTrabajadas() <= 40){
