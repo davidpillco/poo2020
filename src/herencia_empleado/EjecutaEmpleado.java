@@ -2,6 +2,7 @@ package herencia_empleado;
 import java.util.Scanner;
 public class EjecutaEmpleado {
     public static void main(String[] args) {
+        // Declaracion de variables
         String nombre;
         String cargo;
         String dependencia;
@@ -10,6 +11,7 @@ public class EjecutaEmpleado {
         double valorMensual;
         int condicion;
         Scanner teclado = new Scanner(System.in);
+        // Pregunta para el usuario a que tipo de empleado quiere calcular
         System.out.println("De que tipo de empleado desea calcular el sueldo 1.- Empleado por hora | " +
                 "2.- Empleado Asalariado");
         condicion = teclado.nextInt();

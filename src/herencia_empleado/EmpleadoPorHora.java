@@ -5,6 +5,14 @@ public class EmpleadoPorHora extends Empleado {
     double valorHora;
     double sueldo;
 
+    /**
+     * Constructor para el empleado por hora
+     * @param nombre
+     * @param cargo
+     * @param dependencia
+     * @param horas
+     * @param valorHora
+     */
     public EmpleadoPorHora (String nombre, String cargo, String dependencia,double horas,double valorHora ) {
         this.nombre = nombre;
         this.cargo = cargo;
@@ -12,6 +20,11 @@ public class EmpleadoPorHora extends Empleado {
         this.horas = horas;
         this.valorHora = valorHora;
     }
+
+    /**
+     * Metodo para el calculo del sueldo por hora
+     * @return sueldo
+     */
     public double calcularSueldoPorHoras(){
         sueldo = horas * valorHora;
         return sueldo;
