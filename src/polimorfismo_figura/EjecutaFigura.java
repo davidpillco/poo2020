@@ -1,9 +1,5 @@
 package polimorfismo_figura;
-import herenciavolumen.Cilindro;
-
 import java.util.Scanner;
-import java.util.Scanner;
-
 public class EjecutaFigura {
     public static void main(String[] args) {
         // Declaracion de variables
